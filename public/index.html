@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylesheets/w3.css">
+	<link rel="stylesheet" href="stylesheets/tables.css">
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	<script src="javascripts/angular.min.js"></script>
+	<script src='javascripts/angular-route.min.js'></script>
+</head>
+<body ng-app="myapp">
+<nav class="navbar" style='border:none'>
+	<div class="container-fluid navbar-default clear-sky">
+	  <div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="navbar">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">Master</a>
+	  </div>	
+	  <div class="navbar-right">     	
+		  <a class='icon-2x icon-exclamation-sign'></a>
+		  <a class='icon-2x icon-file'></a>
+		  <a class='icon-2x icon-envelope'></a>
+	  </div>
+	  <!--/.nav-collapse -->
+	</div><!--/.container-fluid -->
+	<div class="sidebar col-md-3 clear-sky">
+		<ul id='menu' class="nav navbar-collapse collapse list-group ">
+			<li class="list-group-item active "><a href='#/'>Manage</a></li>
+			<li class='list-group-item '><a>other one</a></li>
+			<li  class='list-group-item '><a>another one</a></li>
+			<li class="dropdown list-group-item">
+			<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu list-group">
+				<li class='list-group-item'><a href="#">Action</a></li>
+				<li class='list-group-item'><a href="#">Another action</a></li>
+				<li class='list-group-item'><a href="#">Something else here</a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+	<div class='col-md-offset-1 col-md-7' ng-view></div>
+</nav>
+<script src='javascripts/jquery-1.12.2.min.js'></script>	
+<script src='javascripts/bootstrap.min.js'></script>
+<script src= "javascripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.left{
+	float:left;
+}
+div.pale-wood{
+	background: #eacda3; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #eacda3 , #d6ae7b); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #eacda3 , #d6ae7b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+div.dark-skies{
+	background: #4B79A1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+div.clear-sky{
+	background: #E0EAFC; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #E0EAFC , #CFDEF3); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #E0EAFC , #CFDEF3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+}
+.navbar-right a{
+	margin: 5px 15px;
+}
+.right{
+	float:right;
+}
+.navbar-right{
+	margin:7px;	
+}
+#menu li>a{
+	color:black;
+	padding:0;
+}
+.preview{
+	margin: 0 auto;
+	display: block;
+	width: 50% 
+}
+.headshot{
+	max-height:20px;
+	margin: 0 auto;
+	display: block;
+}
+
+div.panel{
+	margin-top:20px;
+}
+
+li.list-group-item{
+	background:none;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom: 1px solid white;
+}
+
+@media screen and (min-width: 992px) {
+   .sidebar{
+		height:100vh;
+	}
+}

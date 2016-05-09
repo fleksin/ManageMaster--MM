@@ -1,0 +1,38 @@
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Employee Management</div>
+  <div class="panel-body">
+    <h1>Keep your employees organized</h1>	
+	<div class='right btn-group' role='group'> 
+	<button type='button' class='btn btn-secondary btn-primary' ng-click='createUser()'>create</button>
+	<button type='button' class='btn btn-secondary' ng-click='manager = {}'>clear filter</button>
+	</div>
+  </div>
+  <!-- Table -->
+  <table class="table table-striped table-hover">
+		<tr>
+			<th></th>
+			<th></th>
+			<th ng-click="field = 'fName'">picture</th>
+			<th ng-click="field = 'fName'">First Name</th>
+			<th ng-click="field = 'lName'">Last Name</th>
+			<th ng-click="field = 'title'">Title</th>
+			<th ng-click="field = 'gender'">Gender</th>
+			<th ng-click="field = 'manager'">Manager</th>
+			<th ng-click="field = 'manager'">Report To</th>
+		</tr>
+		<tr auto-focus ng-repeat='user in users | orderBy: field | filter: manager' >
+			<td><button class='btn btn-xs btn-success' style='width:100%' ng-click='edit(user)'>edit</button></td>
+			<td><button class='btn btn-xs btn-danger' style='width:100%' ng-click='deleteUser(user)'>delete</button></td>
+			<td><img class='headshot' ng-src='{{user.headUrl}}'/></td>
+			<td>{{user.fName}}</td>
+			<td>{{user.lName}}</td>
+			<td>{{user.title}}</td>
+			<td>{{user.gender}}</td>			
+			<td ng-click="showManager(user.manager)"><a>{{user.manager.fName}}</a></td>
+			<!-- <td ng-click="manager = user.manager"><a>{{user.manager.fName}}</a></td> -->
+			<td><a ng-click="seeReportTo(user)">detail</a></td>
+		</tr>
+  
+  </table>
+</div>

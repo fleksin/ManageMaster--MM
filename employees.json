@@ -1,0 +1,114 @@
+{ 
+    "_id" : ObjectId("5720ec26db56ff68da581ecc"), 
+    "fName" : "Black", 
+    "lName" : "Panther", 
+    "title" : "Executive", 
+    "gender" : "male", 
+    "manager" : {
+        "fName" : "Tony", 
+        "_id" : "5720e4c5db56ff68da581eb7"
+    }, 
+    "imgUrl" : "upload/1462313400708.jpeg", 
+    "headUrl" : "upload/sm1462313400708.jpeg"
+}
+{ 
+    "_id" : ObjectId("572103d5db56ff68da581ed9"), 
+    "fName" : "Hawk", 
+    "lName" : "Eye", 
+    "title" : "Archer", 
+    "gender" : "male", 
+    "manager" : {
+        "_id" : "5720e9f3db56ff68da581eca", 
+        "fName" : "Captain"
+    }, 
+    "imgUrl" : "upload/1462313208956.jpeg", 
+    "headUrl" : "upload/sm1462313208956.jpeg"
+}
+{ 
+    "_id" : ObjectId("57210567db56ff68da581edf"), 
+    "fName" : "Peter", 
+    "lName" : "Parker", 
+    "title" : "SpiderMan", 
+    "gender" : "male", 
+    "manager" : {
+        "fName" : "Tony", 
+        "_id" : "5720e4c5db56ff68da581eb7"
+    }, 
+    "imgUrl" : "upload/1462313108722.jpeg", 
+    "headUrl" : "upload/sm1462313108722.jpeg"
+}
+{ 
+    "_id" : ObjectId("5720e9f3db56ff68da581eca"), 
+    "fName" : "Captain", 
+    "lName" : "American", 
+    "title" : "captain", 
+    "gender" : "male", 
+    "imgUrl" : "upload/1462312944951.jpeg", 
+    "headUrl" : "upload/sm1462312944951.jpeg"
+}
+{ 
+    "_id" : ObjectId("57225af7b8a0b0a41b595626"), 
+    "fName" : "Tyrion", 
+    "lName" : "Lannister", 
+    "title" : "Imp", 
+    "gender" : "male", 
+    "imgUrl" : "upload/1462313015215.jpeg", 
+    "headUrl" : "upload/sm1462313015215.jpeg"
+}
+{ 
+    "_id" : ObjectId("57210385db56ff68da581ed5"), 
+    "fName" : "Scarlet", 
+    "lName" : "Witch", 
+    "title" : "Chief Mage", 
+    "gender" : "female", 
+    "manager" : {
+        "fName" : "Captain", 
+        "_id" : "5720e9f3db56ff68da581eca"
+    }, 
+    "imgUrl" : "upload/1462313322425.jpeg", 
+    "headUrl" : "upload/sm1462313322425.jpeg"
+}
+{ 
+    "_id" : ObjectId("5720ed07db56ff68da581ed0"), 
+    "fName" : "Winter", 
+    "lName" : "Soilder", 
+    "title" : "Co-founder", 
+    "gender" : "male", 
+    "manager" : {
+        "fName" : "Captain", 
+        "_id" : "5720e9f3db56ff68da581eca"
+    }, 
+    "imgUrl" : "upload/1462313366170.jpeg", 
+    "headUrl" : "upload/sm1462313366170.jpeg"
+}
+{ 
+    "_id" : ObjectId("5720e706db56ff68da581ebd"), 
+    "fName" : "Black", 
+    "lName" : "Widow", 
+    "title" : "secretary&spy", 
+    "gender" : "female", 
+    "manager" : {
+        "fName" : "Tony", 
+        "_id" : "5720e4c5db56ff68da581eb7"
+    }, 
+    "imgUrl" : "upload/1462311729258.jpeg", 
+    "headUrl" : "upload/sm1462311729258.jpeg"
+}
+{ 
+    "_id" : ObjectId("5728fb04348456dc4298182d"), 
+    "fName" : "Zhoufan", 
+    "lName" : "He", 
+    "title" : "Watcher", 
+    "gender" : "male", 
+    "imgUrl" : "upload/1462487710199.jpeg", 
+    "headUrl" : "upload/sm1462487710199.jpeg"
+}
+{ 
+    "_id" : ObjectId("5720e4c5db56ff68da581eb7"), 
+    "title" : "IronMan", 
+    "fName" : "Tony", 
+    "lName" : "Stark", 
+    "gender" : "male", 
+    "imgUrl" : "upload/1462311428041.jpeg", 
+    "headUrl" : "upload/sm1462311428041.jpeg"
+}
