@@ -1,3 +1,9 @@
+ul#menu{
+	padding:0;
+}
+div.sidebar{
+	padding:20px 0;
+}
 .left{
 	float:left;
 }
